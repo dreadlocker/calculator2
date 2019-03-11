@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculator</title>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1>Calculator</h1>
+  <div id="wrapper">
+    <div>EXPRESSION</div>
+    <div><input type="text" autofocus placeholder="write here ..." /></div>
+    <div>RESULT</div>
+    <div id="result">&nbsp;</div>
+    <div class="panels">
+      <div class="leftPanel">
+        <div class="numbers">
+          <div id="clear">Clear</div>
+          <div class="buttons">/</div>
+          <div class="buttons">*</div>
+        </div>
+        <div class="numbers">
+          <div class="buttons">7</div>
+          <div class="buttons">8</div>
+          <div class="buttons">9</div>
+        </div>
+        <div class="numbers">
+          <div class="buttons">4</div>
+          <div class="buttons">5</div>
+          <div class="buttons">6</div>
+        </div>
+        <div class="numbers">
+          <div class="buttons">1</div>
+          <div class="buttons">2</div>
+          <div class="buttons">3</div>
+        </div>
+        <div class="numbers">
+          <div id="zero" class="buttons">0</div>
+          <div id="dot" class="buttons">.</div>
+        </div>
+      </div>
+      <div class="rightPanel">
+        <div class="buttons">-</div>
+        <div class="buttons">+</div>
+        <div id="equal" class="clicked">=</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

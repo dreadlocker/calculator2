@@ -1,0 +1,83 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+  background-color: #17181c;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0.5em auto auto auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 98%;
+  text-align: center;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.numbers > div {
+  width: 33.3%;
+}
+
+div {
+  border: 1px solid red;
+}
+
+#zero {
+  width: 66.8%;
+}
+
+#dot {
+  width: 33%;
+}
+
+.panels {
+  display: flex;
+}
+
+.leftPanel {
+  width: 70%;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.rightPanel > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#clear:active,
+.buttons:active,
+.clicked:active {
+  transform: scale(0.9);
+}
